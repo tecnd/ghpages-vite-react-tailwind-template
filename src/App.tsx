@@ -10,7 +10,7 @@ function App() {
       <div>
         <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
           <img
-            src="/vite.svg"
+            src={import.meta.env.BASE_URL + "vite.svg"}
             className="inline h-36 p-6 hover:drop-shadow-vite"
             alt="Vite logo"
           />
